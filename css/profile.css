@@ -1,18 +1,34 @@
+body {
+  background-image: url("/assets/red.jpg");
+  background-color: turquoise;
+ }
+
+ 
+
 /* Profile Page Styles */
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+  
+    margin-top: 120px;
   }
   
+  .m {
+    background-color: antiquewhite;
+  }
   h1 {
     text-align: center;
   }
   
   form {
     margin-top: 20px;
+   
   }
+
+
+
   
   form label {
     display: block;
@@ -36,17 +52,18 @@
     display: block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
   }
   
   form button:hover {
-    background-color: #0062cc;
+    background-color: #4CAF50;
   }
+ 
   
   .success-message {
     margin-top: 20px;

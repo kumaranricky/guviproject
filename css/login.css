@@ -1,3 +1,16 @@
+body {
+  background-image: url("/assets/red.jpg");
+  background-color: turquoise;
+ }
+
+ .main{
+  width: 100%;
+  background-image: url("/assets/red.jpg");
+  background-color: turquoise;
+  background-position: center;
+  background-size: cover;
+  height: 300vh;
+}
 /* center login form */
 .login-form {
     margin: 0 auto;
@@ -40,4 +53,29 @@
     color: green;
     font-size: 14px;
     margin-top: 10px;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  
+      text-size-adjust: auto;
+      font-size: 25px;
+    padding: 50px;
+    background-color: antiquewhite;
+    margin-top: 120px;
+  }
+  
+  .btn-login{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .btn-login:hover, .btn-signup:hover {
+    background-color: #3e8e41;
   }

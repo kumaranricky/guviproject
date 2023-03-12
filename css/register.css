@@ -1,3 +1,17 @@
+body {
+  background-image: url("/assets/red.jpg");
+  background-color: turquoise;
+ }
+
+body{
+  width: 100%;
+  background-image: url("/assets/red.jpg");
+  background-color: turquoise;
+  background-position: center;
+  background-size: cover;
+  height: 300vh;
+}
+
 /* center signup form */
 .signup-form {
     margin: 0 auto;
@@ -40,4 +54,29 @@
     color: green;
     font-size: 14px;
     margin-top: 10px;
+  }
+
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-size-adjust: auto;
+    font-size: 25px;
+    padding: 50px;
+    background-color: antiquewhite;
+    margin-top: 120px;
+  }
+  
+  .btn-primary{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .btn-signup:hover {
+    background-color: #3e8e41;
   }
