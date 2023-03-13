@@ -1,12 +1,12 @@
 body {
   background-image: url("/assets/red.jpg");
-  background-color: turquoise;
+  background-color: skyblue;
  }
 
 body{
   width: 100%;
   background-image: url("/assets/red.jpg");
-  background-color: turquoise;
+  background-color: skyblue;
   background-position: center;
   background-size: cover;
   height: 300vh;
